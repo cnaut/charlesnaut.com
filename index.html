@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Charles Naut - Entrepreneur | Full-Stack Web Developer</title>
+  <title>Charles Naut - Entrepreneur | Engineer | Investor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
@@ -19,16 +19,20 @@
   </script>
 
   <style type="text/css" media="screen">
-    html, body, .main {
-      height: 100%;
+    body {
       margin: 0;
+      height: 0;
+    }
+
+    .main {
+      margin: 100px;
     }
 
     .content {
       height: 100%;
       display: flex;
-      justify-content: center;
-      align-items: center;
+      justify-content: flex-start;
+      align-items: flex-start;
       flex-direction: column;
       font-family: "Courier New", Courier, monospace;
     }
@@ -40,26 +44,41 @@
 
     .subheader {
       text-align: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
-
+    
     .links {
-      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
 
-    .links .blog {
+    .links.blog {
       color: #f57d00;
     }
 
-    .links .linkedin {
+    .links.linkedin {
       color: #4875B4;
     }
 
-    .links .twitter {
+    .links.twitter {
       color: #00ACED;
     }
 
-    .links .github {
+    .links.github {
       color: #2b3137;
+    }
+
+    h1:hover {
+      font-size: 2.5em;
+    }
+
+    h3:hover {
+      font-size: 1.34em;
+    }
+
+    a:hover {
+      font-size: 1.2em;
     }
   </style>
 </head>
@@ -68,14 +87,14 @@
   <div class="main">
     <div class="content">
       <h1 class="header">charles naut</h1>
-			<h3 class="subheader">entrepreneur | full-stack web developer</h3>
-			<div class="links">
-        <a href="https://getthisbread.co" class="blog" target="_blank">blog</a>&nbsp;|&nbsp;
-        <a href="https://linkedin.com/in/charlesnaut" class="linkedin" target="_blank">linkedin</a>&nbsp;|&nbsp;
-				<a href="https://twitter.com/cnaut" class="twitter" target="_blank">twitter</a>&nbsp;|&nbsp;
-				<a href="https://github.com/cnaut" class="github" target="_blank">github</a>&nbsp;|&nbsp;
-				<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cnaut/30min'});return false;">schedule</a>
-      </div>
+      <h3 class="subheader">entrepreneur</h3>
+      <h3 class="subheader">engineer</h3>
+      <h3 class="subheader">investor</h3>
+      <a href="https://getthisbread.co" class="blog links" target="_blank">blog</a>
+      <a href="https://linkedin.com/in/charlesnaut" class="linkedin links" target="_blank">linkedin</a>
+      <a href="https://twitter.com/cnaut" class="twitter links" target="_blank">twitter</a>
+      <a href="https://github.com/cnaut" class="github links" target="_blank">github</a>
+      <a href="" onclick="Calendly.initPopupWidget({url:'https://calendly.com/cnaut/30min'});return false;">schedule</a>
     </div>
   </div>
 
